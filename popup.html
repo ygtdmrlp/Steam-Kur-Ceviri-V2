@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steam TRY</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-slate-900 text-slate-100 w-80">
+    <main class="popup-shell">
+      <header class="popup-header">
+        <div class="flex items-center gap-2 min-w-0">
+          <div
+            class="brand-mark"
+            aria-hidden="true"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M12 2.5C6.75 2.5 2.5 6.75 2.5 12S6.75 21.5 12 21.5 21.5 17.25 21.5 12 17.25 2.5 12 2.5Z"
+                stroke="#334155"
+                stroke-width="1.5"
+              />
+              <path
+                d="M10.2 7.2h4.4c1.3 0 2.2.9 2.2 2.1 0 1.1-.8 2.1-2.2 2.1H8.9"
+                stroke="#6ee7b7"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              />
+              <path
+                d="M10.2 11.4h4.4c1.5 0 2.4 1 2.4 2.2 0 1.2-.9 2.2-2.4 2.2H10.2"
+                stroke="#6ee7b7"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              />
+              <path d="M10.2 6.3v11.4" stroke="#6ee7b7" stroke-width="1.7" stroke-linecap="round" />
+            </svg>
+          </div>
+
+          <div class="min-w-0">
+            <div class="eyebrow">STEAM STORE TOOL</div>
+            <div class="product-name">USD <span>→</span> TRY</div>
+          </div>
+        </div>
+        <div class="toggle-wrap">
+          <div id="toggle" class="steamtry-switch" role="switch" aria-checked="false" aria-label="Çeviriyi aç veya kapat" tabindex="0" data-on="0">
+            <div class="steamtry-switch-knob"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="status-line">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="statusText">Yükleniyor…</span>
+      </div>
+
+      <section class="rate-card" aria-label="Güncel kur">
+        <div class="rate-card-top">
+          <div>
+            <div class="section-label">GÜNCEL KUR</div>
+            <div id="rateText" class="rate-value">—</div>
+          </div>
+          <div class="rate-icon" aria-hidden="true">₺</div>
+        </div>
+        <div id="rateMeta" class="rate-meta">—</div>
+      </section>
+
+      <button id="refreshBtn" class="steamtry-btn primary-btn w-full" type="button">
+        <span class="refresh-icon" aria-hidden="true">↻</span>
+        <span>Kuru yenile</span>
+      </button>
+
+      <div id="hint" class="hint-box">
+        <span class="hint-icon" aria-hidden="true">i</span>
+        <span>Yalnızca <strong>Steam Store</strong> sayfalarında çalışır.</span>
+      </div>
+
+      <section class="details-section" aria-label="Eklenti bilgileri">
+        <div class="details-heading">EKLENTİ BİLGİLERİ</div>
+        <div class="detail-row">
+          <span>Yapımcı</span>
+          <strong id="makerText">—</strong>
+        </div>
+        <div class="detail-row">
+          <span>Sürüm</span>
+          <strong id="versionText">—</strong>
+        </div>
+        <a class="github-link" href="https://github.com/ygtdmrlp" target="_blank" rel="noreferrer">
+          <span>GitHub profilini görüntüle</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <button id="checkUpdatesBtn" class="steamtry-btn secondary-btn w-full" type="button">Güncellemeleri kontrol et</button>
+        <div id="updateText" class="update-text">—</div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
