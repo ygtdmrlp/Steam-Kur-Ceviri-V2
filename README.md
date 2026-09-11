@@ -36,7 +36,7 @@ Etkinlestirildiginde Steam sayfasindaki uygun USD fiyatlari otomatik olarak TRY 
 ## Ekran Goruntuleri
 
 ### Steam Store
-https://github.com/ygtdmrlp/Steam-Kur-eviri/blob/main/screenshots/preview.png
+![Eklenti Popup'i](https://raw.githubusercontent.com/ygtdmrlp/Steam-Kur-eviri/main/screenshots/preview.png)
 ### Eklenti Popup'i
 
 
