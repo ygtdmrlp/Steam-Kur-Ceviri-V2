@@ -36,8 +36,7 @@ Etkinlestirildiginde Steam sayfasindaki uygun USD fiyatlari otomatik olarak TRY 
 ## Ekran Goruntuleri
 
 ### Steam Store
-
-![Steam Store uzerinde USD TRY fiyat cevirici]([https://raw.githubusercontent.com/ygtdmrlp/Steam-Kur-eviri/main/screenshots/steam-store.png]
+https://github.com/ygtdmrlp/Steam-Kur-eviri/blob/main/screenshots/preview.png
 ### Eklenti Popup'i
 
 
